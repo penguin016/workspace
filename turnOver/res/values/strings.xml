@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">turnOver</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+<string name="str_normal_mode">正常模式</string>
+<string name="str_slight_mode">静音模式</string>
+<string name="str_vibrate_mode">振动模式</string>
+</resources>

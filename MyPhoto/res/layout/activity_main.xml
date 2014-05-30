@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <ImageView 
+        android:id="@+id/photo1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="0px"
+        android:layout_y="36px"
+        />
+   <ImageView 
+        android:id="@+id/photo2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="101px"
+        android:layout_y="119px"
+        />
+      <Button 
+       android:id="@+id/button2"
+       android:layout_width="105px"
+       android:layout_height="66px"
+       android:text="下一张"
+       android:layout_x="179px"
+       android:layout_y="356px"
+       
+       />
+   <Button 
+       android:id="@+id/button1"
+       android:layout_width="105px"
+       android:layout_height="66px"
+       android:text="上一张"
+       android:layout_x="9px"
+       android:layout_y="356px"
+       android:layout_toRightOf="@id/button2"
+       />
+
+       </RelativeLayout>
